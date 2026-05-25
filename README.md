@@ -305,6 +305,8 @@ https://github.com/user-attachments/assets/4c1fd856-28c3-4138-b2d7-25a2ae286131
 **Acessing sign gesture:**
 https://github.com/user-attachments/assets/51cfc5d3-d30b-4772-8be6-494e7816a0c8
 
+> 💡 Note: In this preview, the hand positions appear inverted (the letter "L", made with the right hand, looks flipped due to camera mirroring). This visual alignment logic has already been fixed in the current version of the system.
+
 ---
 
 ## 👥 The team
