@@ -295,6 +295,18 @@ gantt
 
 ---
 
+## 📺 Demonstração do Sistema
+
+**Registrando o gesto do sinal:**
+https://github.com/user-attachments/assets/4c1fd856-28c3-4138-b2d7-25a2ae286131
+
+> 💡 **Nota:** O vídeo termina 2 segundos antes da conclusão total do gesto para demonstrar a lógica de filtragem de ruído do sistema, evitando que o banco de dados salve movimentos indesejados das mãos ao final de uma gravação.
+
+**Acessando o gesto do sinal:**
+https://github.com/user-attachments/assets/51cfc5d3-d30b-4772-8be6-494e7816a0c8
+
+---
+
 ## 👥 O time
 
 <div align="center">
