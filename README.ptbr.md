@@ -318,12 +318,12 @@ https://github.com/user-attachments/assets/51cfc5d3-d30b-4772-8be6-494e7816a0c8
     <td align="center" width="25%">
       <img src="https://avatars.githubusercontent.com/u/0?v=4&s=120" width="100" style="border-radius: 50%;" alt="avatar" /><br/>
       <strong>Gabriel Feltrin Emilio</strong><br/>
-      <sub>🧭 Tech Lead &<br/>Arquitetura de Software</sub>
+      <sub>🧭 Tech Lead, Arquitetura de Software<br/>& Lógica de Animação do Avatar 3D</sub>
     </td>
     <td align="center" width="25%">
       <img src="https://avatars.githubusercontent.com/u/0?v=4&s=120" width="100" style="border-radius: 50%;" alt="avatar" /><br/>
       <strong>Arthur Leite Ferreira</strong><br/>
-      <sub>🛠️ Engenheiro de<br/>Dados e Back-end</sub>
+      <sub>🛠️ Engenharia de Dados &<br/>Design de UX/UI</sub>
     </td>
     <td align="center" width="25%">
       <img src="https://avatars.githubusercontent.com/u/0?v=4&s=120" width="100" style="border-radius: 50%;" alt="avatar" /><br/>
@@ -333,7 +333,7 @@ https://github.com/user-attachments/assets/51cfc5d3-d30b-4772-8be6-494e7816a0c8
     <td align="center" width="25%">
       <img src="https://avatars.githubusercontent.com/u/0?v=4&s=120" width="100" style="border-radius: 50%;" alt="avatar" /><br/>
       <strong>Gustavo Ferreira Santos</strong><br/>
-      <sub>🎨 Front-end &<br/>Designer UX/UI</sub>
+      <sub>🎨 Front-end & Design<br/>da aba "História"</sub>
     </td>
   </tr>
 </table>
