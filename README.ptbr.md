@@ -305,6 +305,8 @@ https://github.com/user-attachments/assets/4c1fd856-28c3-4138-b2d7-25a2ae286131
 **Acessando o gesto do sinal:**
 https://github.com/user-attachments/assets/51cfc5d3-d30b-4772-8be6-494e7816a0c8
 
+> 💡 Nota: Nesta demonstração, a posição das mãos aparece invertida (a letra "L", feita com a mão direita, aparece espelhada devido ao comportamento padrão da câmera). Essa lógica de alinhamento visual já foi corrigida na versão atual do sistema.
+
 ---
 
 ## 👥 O time
