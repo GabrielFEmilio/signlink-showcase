@@ -295,6 +295,18 @@ gantt
 
 ---
 
+## 📺 System Demonstration
+
+**Registering sign gesture:**
+https://github.com/user-attachments/assets/4c1fd856-28c3-4138-b2d7-25a2ae286131
+
+> 💡 **Note:** The video ends 2 seconds before the full gesture completion to demonstrate the system's noise-filtering logic, preventing the database from saving unwanted hand movements at the end of a recording.
+
+**Acessing sign gesture:**
+https://github.com/user-attachments/assets/51cfc5d3-d30b-4772-8be6-494e7816a0c8
+
+---
+
 ## 👥 The team
 
 <div align="center">
