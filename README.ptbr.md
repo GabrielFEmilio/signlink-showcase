@@ -7,7 +7,7 @@
 <br />
 <br />
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=42&duration=3500&pause=900&color=4F8CFF&center=true&vCenter=true&width=760&height=70&lines=SignLink+%F0%9F%A4%9F;L%C3%ADngua+de+sinais+em+tempo+real;Vis%C3%A3o+computacional+%2B+avatar+3D" alt="SignLink" />
+<img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=42&duration=3500&pause=900&color=4F8CFF&center=true&vCenter=true&width=760&height=70&lines=SignLinked+%F0%9F%A4%9F;L%C3%ADngua+de+sinais+em+tempo+real;Vis%C3%A3o+computacional+%2B+avatar+3D" alt="SignLinked" />
 
 <h3>🤟 Uma plataforma colaborativa para traduzir e catalogar a Língua Brasileira de Sinais (Libras)</h3>
 
@@ -16,13 +16,18 @@
   <em>Acessibilidade, código aberto e impacto social — feito por estudantes para o Brasil e o mundo.</em>
 </p>
 
+<p>
+  <strong>🌐 Site oficial:</strong>
+  <a href="https://signlinked.web.app">signlinked.web.app</a>
+</p>
+
 <br />
 
 <!-- Badges institucionais -->
 <p>
   <img src="https://img.shields.io/badge/status-em%20desenvolvimento-yellow?style=flat-square" alt="status" />
-  <img src="https://img.shields.io/badge/versão-0.6.0--alpha-blue?style=flat-square" alt="versão" />
-  <img src="https://img.shields.io/badge/licença-MIT-green?style=flat-square" alt="licença" />
+  <img src="https://img.shields.io/badge/vers%C3%A3o-0.6.0--alpha-blue?style=flat-square" alt="versão" />
+  <img src="https://img.shields.io/badge/licen%C3%A7a-MIT-green?style=flat-square" alt="licença" />
   <img src="https://img.shields.io/badge/IFSP-Birigui-red?style=flat-square" alt="IFSP" />
   <img src="https://img.shields.io/badge/PRs-bem--vindos-brightgreen?style=flat-square" alt="PRs bem-vindos" />
   <img src="https://img.shields.io/badge/feito%20com-%E2%9D%A4-ff69b4?style=flat-square" alt="feito com amor" />
@@ -69,7 +74,7 @@
 ## 📑 Sumário
 
 1. [✨ Visão geral](#-visão-geral)
-2. [🎯 Por que o SignLink?](#-por-que-o-signlink)
+2. [🎯 Por que o SignLinked?](#-por-que-o-signlinked)
 3. [🚀 Principais funcionalidades](#-principais-funcionalidades)
 4. [🧠 Como funciona — pipeline técnico](#-como-funciona--pipeline-técnico)
 5. [🏗️ Arquitetura](#️-arquitetura)
@@ -84,7 +89,7 @@
 
 ## ✨ Visão geral
 
-> O **SignLink** é uma plataforma web que traduz a Língua Brasileira de Sinais (Libras) em tempo real através da webcam do usuário, combinando **visão computacional** (MediaPipe), uma **ponte de rigging** (Kalidokit) e um **avatar 3D VRM** (Three.js). Também funciona como um **dicionário colaborativo**, permitindo que qualquer pessoa contribua cadastrando novos sinais — democratizando o acesso à Libras.
+> O **SignLinked** é uma plataforma web que traduz a Língua Brasileira de Sinais (Libras) em tempo real através da webcam do usuário, combinando **visão computacional** (MediaPipe), uma **ponte de rigging** (Kalidokit) e um **avatar 3D VRM** (Three.js). Também funciona como um **dicionário colaborativo**, permitindo que qualquer pessoa contribua cadastrando novos sinais — democratizando o acesso à Libras.
 
 <div align="center">
 
@@ -96,13 +101,13 @@
 
 ---
 
-## 🎯 Por que o SignLink?
+## 🎯 Por que o SignLinked?
 
-| Problema | Como o SignLink ajuda |
+| Problema | Como o SignLinked ajuda |
 | :--- | :--- |
 | 🧏 Mais de **10 milhões** de brasileiros são surdos ou têm deficiência auditiva. | Tradução visual em tempo real, sem necessidade de intérprete humano para interações do dia a dia. |
 | 📚 Os recursos de aprendizado de Libras são fragmentados e estáticos. | Um dicionário **colaborativo**, indexado e pesquisável, alimentado pela comunidade. |
-| 💸 Soluções comerciais frequentemente exigem hardware caro e configurações complexas. | Arquitetura baseada na web: Acessível pela maioria dos navegadores padrão, eliminando a necessidade de equipamentos especializados e democratizando o acesso. |
+| 💸 💸 Soluções comerciais frequentemente exigem hardware caro e configurações complexas. | O SignLinked é uma solução baseada na web que funciona na maioria dos navegadores padrão, democratizando o acesso sem a necessidade de equipamentos especializados. |
 | 🎓 Existem poucas ferramentas pedagógicas interativas. | Um avatar 3D que **reproduz** os sinais cadastrados — perfeito para quem aprende visualmente. |
 
 ---
@@ -235,7 +240,7 @@ A arquitetura do cliente segue uma separação rígida de responsabilidades:
 
 ## 📐 A matemática por trás do avatar
 
-Controlar um rig humanoide a partir de uma câmera 2D exige transformar cada conjunto de landmarks na rotação que um osso deve ter. Em vez de calcular manualmente os quatérnios de cada articulação, o SignLink delega essa etapa ao **[Kalidokit](https://github.com/yeemachine/kalidokit)**, que consome os landmarks de mãos / rosto / pose do MediaPipe e emite exatamente os dados de rotação e blendshape que um humanoide **VRM** espera.
+Controlar um rig humanoide a partir de uma câmera 2D exige transformar cada conjunto de landmarks na rotação que um osso deve ter. Em vez de calcular manualmente os quatérnios de cada articulação, o SignLinked delega essa etapa ao **[Kalidokit](https://github.com/yeemachine/kalidokit)**, que consome os landmarks de mãos / rosto / pose do MediaPipe e emite exatamente os dados de rotação e blendshape que um humanoide **VRM** espera.
 
 Em resumo, a conversão ainda segue a receita clássica por osso:
 
@@ -257,7 +262,7 @@ rotation = quaternionFromAxisAngle(axis, angle)
 
 ```mermaid
 gantt
-    title Cronograma SignLink 2026
+    title Cronograma SignLinked 2026
     dateFormat YYYY-MM-DD
     section Fase 1 — Visão central
     Detecção de uma mão           :done,    f1a, 2026-02-01, 30d
@@ -273,8 +278,7 @@ gantt
     Aba "Sobre o projeto"         :active,  f3c, 2026-05-15, 25d
     Dicionário colaborativo       :         f3d, 2026-07-15, 30d
     section Fase 4 — Lançamento
-    Beta fechado                  :         f4a, 2026-09-01, 30d
-    Lançamento público            :milestone, f4b, 2026-11-01, 0d
+    Lançamento público            :milestone, done, f4b, 2026-06-01, 0d
 ```
 
 | Marco | Status | Meta |
@@ -290,8 +294,7 @@ gantt
 | **Aba "Sobre o projeto" / histórico** | 🟡 Em andamento | Jul/2026 |
 | CRUD colaborativo de sinais | ⏳ Planejado | Jul/2026 |
 | Fluxo de aprovação pela comunidade | 🟡 Em andamento | Ago/2026 |
-| Beta fechado | ⏳ Planejado | Set/2026 |
-| Lançamento público | 🎯 Objetivo | Nov/2026 |
+| Lançamento público | ✅ Concluído | 1 de junho de 2026 |
 
 ---
 
