@@ -7,13 +7,18 @@
 <br />
 <br />
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=42&duration=3500&pause=900&color=4F8CFF&center=true&vCenter=true&width=760&height=70&lines=SignLink+%F0%9F%A4%9F;Real-time+sign+language;Computer+vision+%2B+3D+avatar" alt="SignLink" />
+<img src="https://readme-typing-svg.herokuapp.com/?font=JetBrains+Mono&size=42&duration=3500&pause=900&color=4F8CFF&center=true&vCenter=true&width=760&height=70&lines=SignLinked+%F0%9F%A4%9F;Real-time+sign+language;Computer+vision+%2B+3D+avatar" alt="SignLinked" />
 
 <h3>🤟 A collaborative platform to translate and catalog Brazilian Sign Language (Libras)</h3>
 
 <p>
   <em>Computer vision + 3D VRM avatar + community.</em><br/>
   <em>Accessibility, open source, and social impact — built by students for Brazil and beyond.</em>
+</p>
+
+<p>
+  <strong>🌐 Official website:</strong>
+  <a href="https://signlinked.web.app">signlinked.web.app</a>
 </p>
 
 <br />
@@ -69,7 +74,7 @@
 ## 📑 Table of Contents
 
 1. [✨ Overview](#-overview)
-2. [🎯 Why SignLink?](#-why-signlink)
+2. [🎯 Why SignLinked?](#-why-signlinked)
 3. [🚀 Key features](#-key-features)
 4. [🧠 How it works — technical pipeline](#-how-it-works--technical-pipeline)
 5. [🏗️ Architecture](#️-architecture)
@@ -84,7 +89,7 @@
 
 ## ✨ Overview
 
-> **SignLink** is a web platform that translates Brazilian Sign Language (Libras) in real time through the user's webcam, blending **computer vision** (MediaPipe), a **rigging bridge** (Kalidokit), and a **3D VRM avatar** (Three.js). It also works as a **crowdsourced dictionary**, letting anyone contribute by registering new signs — democratizing access to Libras.
+> **SignLinked** is a web platform that translates Brazilian Sign Language (Libras) in real time through the user's webcam, blending **computer vision** (MediaPipe), a **rigging bridge** (Kalidokit), and a **3D VRM avatar** (Three.js). It also works as a **crowdsourced dictionary**, letting anyone contribute by registering new signs — democratizing access to Libras.
 
 <div align="center">
 
@@ -96,13 +101,13 @@
 
 ---
 
-## 🎯 Why SignLink?
+## 🎯 Why SignLinked?
 
-| Problem | How SignLink helps |
+| Problem | How SignLinked helps |
 | :--- | :--- |
 | 🧏 Over **10 million** Brazilians are deaf or hard of hearing. | Real-time visual translation, no human interpreter required for everyday interactions. |
 | 📚 Libras learning resources are fragmented and static. | A **collaborative**, indexed and searchable dictionary fueled by the community. |
-| 💸 💸 Commercial solutions often require expensive hardware and complex setups. | SignLink is a web-based solution that works on most standard browsers, democratizing access without the need for specialized equipment. |
+| 💸 💸 Commercial solutions often require expensive hardware and complex setups. | SignLinked is a web-based solution that works on most standard browsers, democratizing access without the need for specialized equipment. |
 | 🎓 Few interactive pedagogical tools exist. | A 3D avatar that **replays** registered signs — perfect for visual learners. |
 
 ---
@@ -235,7 +240,7 @@ The client architecture follows strict separation of concerns:
 
 ## 📐 The math behind the avatar
 
-Driving a humanoid rig from a 2D camera requires turning each landmark cluster into the rotation a bone should have. Instead of hand-rolling quaternions for every joint, SignLink delegates this step to **[Kalidokit](https://github.com/yeemachine/kalidokit)**, which consumes MediaPipe's hand / face / pose landmarks and emits the exact rotation and blendshape data a **VRM** humanoid expects.
+Driving a humanoid rig from a 2D camera requires turning each landmark cluster into the rotation a bone should have. Instead of hand-rolling quaternions for every joint, SignLinked delegates this step to **[Kalidokit](https://github.com/yeemachine/kalidokit)**, which consumes MediaPipe's hand / face / pose landmarks and emits the exact rotation and blendshape data a **VRM** humanoid expects.
 
 At a glance, the conversion still follows the classic recipe per bone:
 
@@ -257,7 +262,7 @@ rotation = quaternionFromAxisAngle(axis, angle)
 
 ```mermaid
 gantt
-    title SignLink 2026 timeline
+    title SignLinked 2026 timeline
     dateFormat YYYY-MM-DD
     section Phase 1 — Core vision
     Single-hand detection         :done,    f1a, 2026-02-01, 30d
@@ -273,8 +278,7 @@ gantt
     "About the project" tab       :active,  f3c, 2026-05-15, 25d
     Collaborative dictionary      :         f3d, 2026-07-15, 30d
     section Phase 4 — Launch
-    Closed beta                   :         f4a, 2026-09-01, 30d
-    Public launch                 :milestone, f4b, 2026-11-01, 0d
+    Public launch                 :milestone, done, f4b, 2026-06-01, 0d
 ```
 
 | Milestone | Status | Target |
@@ -290,8 +294,7 @@ gantt
 | **"About the project" / history tab** | 🟡 In progress | Jul/2026 |
 | Collaborative CRUD for signs | ⏳ Planned | Jul/2026 |
 | Community approval flow | 🟡 In progress | Aug/2026 |
-| Closed beta | ⏳ Planned | Sep/2026 |
-| Public launch | 🎯 Goal | Nov/2026 |
+| Public launch | ✅ Done | Jun 1, 2026 |
 
 ---
 
